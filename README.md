@@ -1,6 +1,3 @@
-# Atmosphere Cheat Button Assigner
-Atmosphere Cheat Code Button Reassigner
-
 # About
 This is a tool that I made for use with Atmosphere codes on the Nintendo Switch. This will accept codes as input and allow you to change any button activators present in the code.
 
