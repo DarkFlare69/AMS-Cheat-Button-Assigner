@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AMS_AssignCheatButton"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Atmosphere Cheat Button Assigner" Height="522.409" Width="633.881" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Height="430" VerticalAlignment="Top" Margin="0,0,-12,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="169*"/>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition Width="124*"/>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="132*"/>
+            <ColumnDefinition Width="95*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBox1" Height="396" Margin="10,40,0,-6" TextWrapping="Wrap" VerticalAlignment="Top" AcceptsReturn="True" Grid.ColumnSpan="3" FontFamily="Consolas" HorizontalAlignment="Left" Width="300" VerticalScrollBarVisibility="Auto"/>
+        <Label Content="Atmosphere Codes:&#xA;" HorizontalAlignment="Right" Margin="0,0,32,395" VerticalAlignment="Bottom" Width="132" Height="35" FontSize="14"/>
+        <Button Content="Next Activator" Margin="0,413,37,-7" Click="Button_Click" VerticalContentAlignment="Stretch" Height="24" VerticalAlignment="Top" UseLayoutRounding="False" Grid.Column="4" HorizontalAlignment="Right" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBox2" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="80,71,0,0" TextWrapping="Wrap" Text="Value: 0" VerticalAlignment="Top" Width="108" FontFamily="Consolas" IsEnabled="False" Grid.ColumnSpan="3"/>
+        <Label Content="Current Button Information:" HorizontalAlignment="Right" Margin="0,0,49,392" VerticalAlignment="Bottom" Width="261" Grid.Column="2" Height="35" FontSize="14" Grid.ColumnSpan="4"/>
+        <Button x:Name="Load" Content="Load Codes" HorizontalAlignment="Right" Margin="0,441,68,-40" VerticalAlignment="Top" Width="141" RenderTransformOrigin="-0.274,-0.049" Grid.ColumnSpan="3" Height="29" Click="Button_Click_1"/>
+        <Button Content="Save Current Activator" Grid.Column="2" HorizontalAlignment="Left" Margin="80,384,0,0" VerticalAlignment="Top" Width="273" Height="24" Click="Button_Click_2" Grid.ColumnSpan="4"/>
+        <CheckBox x:Name="A" Content="A" Grid.Column="2" HorizontalAlignment="Left" Margin="91,107,0,0" VerticalAlignment="Top" Height="15" Width="28"/>
+        <CheckBox x:Name="B" Content="B" Grid.Column="2" HorizontalAlignment="Left" Margin="91,127,0,0" VerticalAlignment="Top" Height="15" Width="27"/>
+        <CheckBox x:Name="X" Content="X" Grid.Column="2" HorizontalAlignment="Left" Margin="91,147,0,0" VerticalAlignment="Top" Height="15" Width="27"/>
+        <CheckBox x:Name="Y" Content="Y" Grid.Column="2" HorizontalAlignment="Left" Margin="91,167,0,0" VerticalAlignment="Top" Height="15" Width="27"/>
+        <CheckBox x:Name="LeftStickPressed" Content="Left Stick Pressed" Grid.Column="2" HorizontalAlignment="Left" Margin="91,187,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="15" Width="111"/>
+        <CheckBox x:Name="RightStickpressed" Content="Right Stick Pressed" Grid.Column="2" HorizontalAlignment="Left" Margin="91,207,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="15" Width="120"/>
+        <CheckBox x:Name="L" Content="L" Grid.Column="2" HorizontalAlignment="Left" Margin="91,227,0,0" VerticalAlignment="Top" Height="15" Width="26"/>
+        <CheckBox x:Name="R" Content="R" Grid.Column="2" HorizontalAlignment="Left" Margin="91,247,0,0" VerticalAlignment="Top" Height="15" Width="27"/>
+        <CheckBox x:Name="ZL" Content="ZL" Grid.Column="2" HorizontalAlignment="Left" Margin="91,267,0,0" VerticalAlignment="Top" Height="15" Width="32"/>
+        <CheckBox x:Name="ZR" Content="ZR" Grid.Column="2" HorizontalAlignment="Left" Margin="91,287,0,0" VerticalAlignment="Top" Height="15" Width="34"/>
+        <CheckBox x:Name="Minus" Content="Minus" Grid.Column="2" HorizontalAlignment="Left" Margin="91,327,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.184,-0.539" Grid.ColumnSpan="2" Height="15" Width="52"/>
+        <CheckBox x:Name="Plus" Content="Plus" Grid.Column="2" HorizontalAlignment="Left" Margin="91,307,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.127,0.653" Grid.ColumnSpan="2" Height="15" Width="42"/>
+        <CheckBox x:Name="Left1" Content="Left" Grid.Column="2" HorizontalAlignment="Left" Margin="91,347,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="40"/>
+        <CheckBox x:Name="Up" Content="Up" Grid.Column="4" HorizontalAlignment="Left" Margin="72,107,0,0" VerticalAlignment="Top" Height="15" Width="35"/>
+        <CheckBox x:Name="Right1" Content="Right" Grid.Column="4" HorizontalAlignment="Left" Margin="72,127,0,0" VerticalAlignment="Top" Height="15" Width="48"/>
+        <CheckBox x:Name="Down" Content="Down" Grid.Column="4" HorizontalAlignment="Left" Margin="72,147,0,0" VerticalAlignment="Top" Height="15" Width="51"/>
+        <CheckBox x:Name="LeftStickleft" Content="Left Stick Left" Grid.Column="4" HorizontalAlignment="Left" Margin="72,167,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="91"/>
+        <CheckBox x:Name="LeftStickUp" Content="Left Stick Up" Grid.Column="4" HorizontalAlignment="Left" Margin="72,187,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="86"/>
+        <CheckBox x:Name="LeftStickRight" Content="Left Stick Right" Grid.Column="4" HorizontalAlignment="Left" Margin="72,207,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="99"/>
+        <CheckBox x:Name="LeftStickDown" Content="Left Stick Down" Grid.Column="4" HorizontalAlignment="Left" Margin="72,227,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="102"/>
+        <CheckBox x:Name="RightStickLeft" Content="Right Stick Left" Grid.Column="4" HorizontalAlignment="Left" Margin="72,247,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.019,0.25" Grid.ColumnSpan="2" Height="15" Width="99"/>
+        <CheckBox x:Name="RightStickUp" Content="Right Stick Up" Grid.Column="4" HorizontalAlignment="Left" Margin="72,267,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="94"/>
+        <CheckBox x:Name="RightStickRight" Content="Right Stick Right" Grid.Column="4" HorizontalAlignment="Left" Margin="72,287,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="107"/>
+        <CheckBox x:Name="RightStickDown" Content="Right Stick Down" Grid.Column="4" HorizontalAlignment="Left" Margin="72,307,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="15" Width="110"/>
+        <CheckBox x:Name="SL" Content="SL" Grid.Column="4" HorizontalAlignment="Left" Margin="72,327,0,0" VerticalAlignment="Top" Height="15" Width="32"/>
+        <CheckBox x:Name="SR" Content="SR" Grid.Column="4" HorizontalAlignment="Left" Margin="72,347,0,0" VerticalAlignment="Top" Height="15" Width="34"/>
+        <Button Content="Previous Activator" Grid.Column="2" HorizontalAlignment="Left" Margin="80,413,0,-6" VerticalAlignment="Top" Width="120" Height="23" Click="Button_Click_3" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="textBox3" Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="37,71,0,0" TextWrapping="Wrap" Text="Instance: 0" VerticalAlignment="Top" Width="89" IsEnabled="False" FontFamily="Consolas"/>
+        <Button x:Name="loadTextFile" Content="Open Text File" HorizontalAlignment="Left" Height="29" Margin="10,441,0,-40" VerticalAlignment="Top" Width="141" Click="LoadTextFile_Click"/>
+        <Button x:Name="info" Content="?" Grid.Column="5" HorizontalAlignment="Left" Height="20" Margin="41,450,0,-40" VerticalAlignment="Top" Width="20" Click="Info_Click"/>
+        <TextBox x:Name="textBoxName" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="79,43,0,0" TextWrapping="Wrap" Text="Code Name" VerticalAlignment="Top" Width="274" IsEnabled="False" Grid.ColumnSpan="4"/>
+        <TextBox x:Name="TextBoxLine" Grid.Column="4" HorizontalAlignment="Left" Height="23" Margin="130,71,0,0" TextWrapping="Wrap" Text="Line: 0" VerticalAlignment="Top" Width="67" FontFamily="Consolas" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="2" Height="280" Margin="0,99,36,0" VerticalAlignment="Top" Grid.ColumnSpan="4" HorizontalAlignment="Right" Width="274"/>
+
     </Grid>
 </Window>
