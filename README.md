@@ -12,5 +12,10 @@ Screenshot:
 4) To change an activator, check/uncheck the appropriate boxes and click "Save Current Activator" when done.
 5) All the new codes will be in the same text box. Copy them wherever you want.
 
+# Links
+Download: https://github.com/DarkFlare69/AMS-Cheat-Button-Assigner/raw/master/AMS-AssignCheatButton.exe
+GBAtemp Thread: 
+YouTube Video: https://www.youtube.com/watch?v=9r82goYAV_M
+
 # Credits
 -Program by DarkFlare
