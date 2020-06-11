@@ -14,7 +14,7 @@ Screenshot:
 
 # Links
 Download: https://github.com/DarkFlare69/AMS-Cheat-Button-Assigner/raw/master/AMS-AssignCheatButton.exe
-GBAtemp Thread: 
+GBAtemp Thread: https://gbatemp.net/threads/atmosphere-cheat-code-button-assigner-gui.567244/
 YouTube Video: https://www.youtube.com/watch?v=9r82goYAV_M
 
 # Credits
